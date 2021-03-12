@@ -25,7 +25,7 @@ I'm Saksham from USA, and I do content on Development and testing. I really enjo
 Skills: JAVA EE / AWS / REST API / MYSQL / CSS
 
 - 🔭 I’m currently working on Java REST API with Springboot  
-- 🌱 I’m currently learning Amazon Web Services 
+- 🌱 I’m currently learning Amazon Web Services and JAVA 9 & 11 features 
 - 📫 How to reach me: nyc.july@gmail.com 
 
 ##### Connect with me : 
