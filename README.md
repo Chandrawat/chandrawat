@@ -1,6 +1,6 @@
-### Hi there 👋
+<!-- ### Hi there 👋
 
-<!--
+
 **Chandrawat/chandrawat** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 -->
 
 ### Hi there 👋, my name is Saksham
-![](https://cdn.solace.com/wp-content/uploads/2018/12/spring-boot-java.jpg)
+![<img src='https://cdn.solace.com/wp-content/uploads/2018/12/spring-boot-java.jpg' alt='cover' height='60'>](https://cdn.solace.com/wp-content/uploads/2018/12/spring-boot-java.jpg)
 
 I'm Saksham from USA, and I do content on Development and testing. I really enjoy learning languages and frameworks like React and React Native, as well as work in WordPress. I also enjoy wireframing, ui, ux, and design in general.
 
