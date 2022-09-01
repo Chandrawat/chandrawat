@@ -26,7 +26,7 @@ Skills: JAVA EE / AWS / REST API / MYSQL / CSS
 
 - 🔭 I’m currently working on Java REST API with Springboot  
 - 🌱 I’m currently learning Amazon Web Services and JAVA 9 & 11 features 
-- 📫 How to reach me: nyc.july@gmail.com 
+- 📫 How to reach me: saksham.pace@gmail.com 
 
 ##### Connect with me : 
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/https://github.com/Chandrawat) [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/https://www.linkedin.com/in/sakshamchandrawat/)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/stackoverflow.svg' alt='stackoverflow' height='40'>](https://stackoverflow.com/users/chandrawat)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/udemy.svg' alt='udemy' height='40'>](https://www.udemy.com/user/saksham-chandrawat/)  
