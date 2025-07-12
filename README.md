@@ -45,10 +45,11 @@ Currently based in the **USA**, I enjoy **mentoring teams, solving tough product
 - 🤖 I use **GitHub Copilot** daily—it’s like pair programming with an AI friend.
 - ☕ I'm a big fan of *clean code*, but my coffee is never clean—it’s always strong!
 
+---
+
 ## 📫 How to reach me
 - ✉️ Email: saksham.pace@gmail.com
-- 🌐 [LinkedIn](https://www.linkedin.com/in/sakshamchandrawat/)
-
+  
 ---
 
 ## 🤝 Connect with me
