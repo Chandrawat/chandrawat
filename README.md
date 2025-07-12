@@ -53,10 +53,24 @@ Currently based in the **USA**, I enjoy **mentoring teams, solving tough product
 ---
 
 ## 🤝 Connect with me
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/Chandrawat)
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/sakshamchandrawat/)
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/stackoverflow.svg' alt='stackoverflow' height='40'>](https://stackoverflow.com/users/chandrawat)
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/udemy.svg' alt='udemy' height='40'>](https://www.udemy.com/user/saksham-chandrawat/)
+
+<p align="center">
+  <a href="https://github.com/Chandrawat">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge"/>
+  </a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/sakshamchandrawat/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
+  &nbsp;
+  <a href="https://stackoverflow.com/users/chandrawat">
+    <img src="https://img.shields.io/badge/StackOverflow-FE7A16?style=for-the-badge&logo=stackoverflow&logoColor=white" alt="StackOverflow Badge"/>
+  </a>
+  &nbsp;
+  <a href="https://www.udemy.com/user/saksham-chandrawat/">
+    <img src="https://img.shields.io/badge/Udemy-A435F0?style=for-the-badge&logo=udemy&logoColor=white" alt="Udemy Badge"/>
+  </a>
+</p>
 
 ---
 
