@@ -56,19 +56,19 @@ Currently based in the **USA**, I enjoy **mentoring teams, solving tough product
 
 <p align="center">
   <a href="https://github.com/Chandrawat">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="40" height="40"/>
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge"/>
   </a>
-  &nbsp;&nbsp;
+  &nbsp;
   <a href="https://www.linkedin.com/in/sakshamchandrawat/">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" width="40" height="40"/>
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
-  &nbsp;&nbsp;
+  &nbsp;
   <a href="https://stackoverflow.com/users/chandrawat">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Stack_Overflow_icon.svg" alt="Stack Overflow" width="40" height="40"/>
+    <img src="https://img.shields.io/badge/StackOverflow-FE7A16?style=for-the-badge&logo=stackoverflow&logoColor=white" alt="StackOverflow Badge"/>
   </a>
-  &nbsp;&nbsp;
+  &nbsp;
   <a href="https://www.udemy.com/user/saksham-chandrawat/">
-    <img src="https://seeklogo.com/images/U/udemy-logo-3D36F3B11C-seeklogo.com.png" alt="Udemy" width="40" height="40"/>
+    <img src="https://img.shields.io/badge/Udemy-A435F0?style=for-the-badge&logo=udemy&logoColor=white" alt="Udemy Badge"/>
   </a>
 </p>
 
