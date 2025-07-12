@@ -56,7 +56,7 @@ Currently based in the **USA**, I enjoy **mentoring teams, solving tough product
 
 <p align="center">
   <a href="https://github.com/Chandrawat">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge"/>
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge"/>
   </a>
   &nbsp;
   <a href="https://www.linkedin.com/in/sakshamchandrawat/">
@@ -64,7 +64,7 @@ Currently based in the **USA**, I enjoy **mentoring teams, solving tough product
   </a>
   &nbsp;
   <a href="https://stackoverflow.com/users/chandrawat">
-    <img src="https://img.shields.io/badge/StackOverflow-FE7A16?style=for-the-badge&logo=stackoverflow&logoColor=white" alt="StackOverflow Badge"/>
+    <img src="https://img.shields.io/badge/StackOverflow-F58025?style=for-the-badge&logo=stackoverflow&logoColor=white" alt="StackOverflow Badge"/>
   </a>
   &nbsp;
   <a href="https://www.udemy.com/user/saksham-chandrawat/">
