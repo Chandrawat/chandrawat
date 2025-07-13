@@ -1,233 +1,345 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Saksham Chandrawat - Portfolio</title>
-
-  <!-- Favicon -->
-  <link rel="icon" href="https://placehold.co/32x32/00C4CC/121212?text=SC" type="image/x-icon">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saksham Chandrawat - Technical Java Lead</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for general icons and fallbacks -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google Font: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!-- Header -->
-  <header class="header">
-    <div class="container">
-      <a href="#" class="logo">Saksham.dev</a>
-      <nav class="navbar" id="navbar">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#experience">Experience</a>
-        <a href="#contact">Contact</a>
-      </nav>
-      <div id="menu-btn" class="fas fa-bars"></div>
-    </div>
-  </header>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#home" class="logo">Saksham Chandrawat</a>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#certifications">Certifications</a></li> <!-- Added Certifications link -->
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
 
-  <!-- Home -->
-  <section class="home" id="home">
-    <div class="container">
-      <div class="content">
-        <h3>Hi, I'm <span>Saksham Chandrawat</span></h3>
-         <p>Technical Java Developer</p>
-        <p>A Technical Java Lead with 9+ years of experience designing, developing, and deploying scalable microservices and cloud-native applications.</p>
-        <a href="#about" class="btn">About Me <i class="fas fa-user"></i></a>
-      </div>
-      <div class="image">
-        <img src="https://placehold.co/400x400/1E1E1E/00C4CC?text=Your+Photo" alt="Saksham Chandrawat Profile">
-      </div>
-    </div>
-  </section>
+    <!-- Home Section -->
+    <section id="home" class="hero-section">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Hi, I'm <span class="highlight">Saksham Chandrawat</span></h1>
+                <p>A passionate Technical Java Lead with 9+ years of experience in analysis, design, development, testing, and implementation of web-based applications.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Let's Connect</a>
+                    <a href="Saksham-Chandrawat_Resume_b.pdf" download="Saksham-Chandrawat_Resume.pdf" class="btn btn-secondary">Download Resume</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <!-- Placeholder image: Use a square image, e.g., 300x300 pixels or larger -->
+                <img src="https://placehold.co/300x300/e0e0e0/333333?text=Your+Photo" alt="Saksham Chandrawat Profile">
+            </div>
+        </div>
+    </section>
 
-  <!-- About -->
-  <section class="about" id="about">
-    <h1 class="heading">About <span>Me</span></h1>
-    <div class="container">
-      <div class="image">
-        <img src="https://placehold.co/400x400/1E1E1E/00C4CC?text=About+Photo" alt="About Saksham">
-      </div>
-      <div class="content">
-        <h3>I'm a Technical Java Lead</h3>
-        <p>With over 9 years of experience, I specialize in building event-driven microservices, architecting CI/CD pipelines, and deploying resilient systems on AWS, GCP, and Azure. I lead teams to deliver robust, secure, and maintainable software.</p>
-        <div class="box-container">
-          <div class="box">
-            <p><span>Email:</span> saksham.pace@gmail.com</p>
-            <p><span>Phone:</span> 201-985-4801</p>
-          </div>
-          <div class="box">
-            <p><span>Location:</span> Cleveland, OH</p>
-            <p><span>Visa:</span> H1B</p>
-          </div>
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>9+ Years of experience as a Technical Java Lead with diversified exposure in analysis, design, development, testing, and implementation of web-based applications.</p>
+                <p>Extensive experience in developing microservices using Spring Boot with domain-driven design. Deployed and managed CI/CD pipelines using tools like Jenkins and Docker for Microservices. Proficient at developing responsive web applications using HTML5, CSS3, JavaScript, Angular, and Bootstrap. Expertise in project documentation such as E-R Diagram, and UML modeling.</p>
+                <p>Excellent communication, organizational, and team leadership skills. Strong analytical and problem-solving skills with a focus on debugging and optimizing production systems. Experience in managing the Software Development Life Cycle with strong expertise in AGILE/SCUM practices, including leading sprint planning and retrospectives.</p>
+            </div>
         </div>
-        <a href="https://linkedin.com/in/sakshamchandrawat" target="_blank" class="btn">View LinkedIn <i class="fab fa-linkedin"></i></a>
-        <a href="https://github.com/Chandrawat" target="_blank" class="btn">View GitHub <i class="fab fa-github"></i></a>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Skills -->
-  <section class="skills" id="skills">
-    <h1 class="heading">My <span>Skills</span></h1>
-    <div class="container">
-      <div class="skill-category">
-        <h3>Languages & Frameworks</h3>
-        <div class="skills-grid">
-          <span>Java 17</span>
-          <span>Spring Boot</span>
-          <span>Hibernate</span>
-          <span>Node.js</span>
-          <span>Angular 16</span>
-          <span>JUnit</span>
-          <span>Mockito</span>
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category-card">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <ul>
+                        <li>
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/java.svg" alt="Java" class="skill-icon" onerror="this.onerror=null;this.src='';this.outerHTML='<i class=\'fab fa-java skill-icon\'></i>';"> Java 17
+                        </li>
+                        <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/javascript.svg" alt="JavaScript" class="skill-icon"> JavaScript</li>
+                        <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/postgresql.svg" alt="SQL" class="skill-icon"> SQL</li>
+                        <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/nodedotjs.svg" alt="Node.js" class="skill-icon"> Node.js</li>
+                    </ul>
+                </div>
+                <div class="skill-category-card">
+                    <h3><i class="fas fa-cogs"></i> Frameworks</h3>
+                    <ul>
+                        <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/springboot.svg" alt="Spring Boot" class="skill-icon"> Spring Boot</li>
+                        <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/hibernate.svg" alt="Hibernate" class="skill-icon"> Hibernate</li>
+                        <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/junit5.svg" alt="JUnit" class="skill-icon"> JUnit</li>
+                        <li><i class="fas fa-vial skill-icon"></i> Mockito</li> <!-- No specific logo -->
+                    </ul>
+                </div>
+                <div class="skill-category-card">
+                    <h3><i class="fas fa-laptop-code"></i> Web Technologies</h3>
+                    <ul>
+                        <li><i class="fas fa-file-code skill-icon"></i> JSON</li> <!-- No specific logo -->
+                        <li><i class="fas fa-exchange-alt skill-icon"></i> RESTful APIs</li> <!-- No specific logo -->
+                        <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/angular.svg" alt="Angular" class="skill-icon"> Angular 16</li>
+                        <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/html5.svg" alt="HTML5" class="skill-icon"> HTML5</li>
+                        <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/css3.svg" alt="CSS3" class="skill-icon"> CSS3</li>
+                        <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/bootstrap.svg" alt="Bootstrap" class="skill-icon"> Bootstrap</li>
+                    </ul>
+                </div>
+                <div class="skill-category-card">
+                    <h3><i class="fas fa-database"></i> Databases</h3>
+                    <ul>
+                        <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/mysql.svg" alt="MySQL" class="skill-icon"> MySQL</li>
+                        <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/postgresql.svg" alt="PostgreSQL" class="skill-icon"> PostgreSQL</li>
+                        <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/redis.svg" alt="Redis" class="skill-icon"> Redis</li>
+                        <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/oracle.svg" alt="Oracle" class="skill-icon"> Oracle</li>
+                    </ul>
+                </div>
+                <div class="skill-category-card">
+                    <h3><i class="fas fa-cloud"></i> Cloud Platforms</h3>
+                    <ul>
+                        <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/googlecloud.svg" alt="Google Cloud" class="skill-icon"> Google Cloud (GCP)</li>
+                        <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/amazonaws.svg" alt="AWS" class="skill-icon"> AWS</li>
+                        <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/microsoftazure.svg" alt="Azure" class="skill-icon"> Azure</li>
+                    </ul>
+                </div>
+                <div class="skill-category-card">
+                    <h3><i class="fas fa-tools"></i> DevOps & Tools</h3>
+                    <ul>
+                        <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/openapiinitiative.svg" alt="OpenAPI" class="skill-icon"> OpenAPI (Swagger)</li>
+                        <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/apachemaven.svg" alt="Maven" class="skill-icon"> Maven</li>
+                        <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/docker.svg" alt="Docker" class="skill-icon"> Docker</li>
+                        <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/kubernetes.svg" alt="Kubernetes" class="skill-icon"> Kubernetes</li>
+                        <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/jenkins.svg" alt="Jenkins" class="skill-icon"> Jenkins</li>
+                        <li><i class="fas fa-robot skill-icon"></i> GitHub Copilot</li> <!-- No specific logo -->
+                        <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/splunk.svg" alt="Splunk" class="skill-icon"> Splunk</li>
+                        <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/jira.svg" alt="JIRA" class="skill-icon"> JIRA</li>
+                        <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/sonarqube.svg" alt="SonarQube" class="skill-icon"> SonarQube</li>
+                    </ul>
+                </div>
+                <div class="skill-category-card">
+                    <h3><i class="fas fa-stream"></i> Event Streaming</h3>
+                    <ul>
+                        <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/apachekafka.svg" alt="Apache Kafka" class="skill-icon"> Apache Kafka</li>
+                        <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/googlecloud.svg" alt="Google Pub/Sub" class="skill-icon"> Google Pub/Sub</li>
+                        <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/microsoftazure.svg" alt="Azure Event Hub" class="skill-icon"> Azure Event Hub</li>
+                    </ul>
+                </div>
+                <div class="skill-category-card">
+                    <h3><i class="fas fa-desktop"></i> IDEs Used</h3>
+                    <ul>
+                        <li><i class="fas fa-laptop-code skill-icon"></i> Spring Tool Suite</li> <!-- No specific logo -->
+                        <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/intellijidea.svg" alt="IntelliJ IDEA" class="skill-icon"> IntelliJ IDEA</li>
+                        <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/eclipseide.svg" alt="Eclipse" class="skill-icon"> Eclipse</li>
+                        <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/visualstudiocode.svg" alt="VS Code" class="skill-icon"> VS Code</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="skill-category">
-        <h3>Cloud & DevOps</h3>
-        <div class="skills-grid">
-          <span>AWS</span>
-          <span>GCP</span>
-          <span>Azure</span>
-          <span>Docker</span>
-          <span>Kubernetes</span>
-          <span>Jenkins</span>
-          <span>Argo CD</span>
-          <span>GitHub Copilot</span>
-        </div>
-      </div>
-      <div class="skill-category">
-        <h3>Tools & Platforms</h3>
-        <div class="skills-grid">
-          <span>Apache Kafka</span>
-          <span>Google Pub/Sub</span>
-          <span>Azure Event Hub</span>
-          <span>OpenAPI</span>
-          <span>Swagger</span>
-          <span>Redis</span>
-          <span>Postman</span>
-          <span>SonarQube</span>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Portfolio -->
-  <section class="portfolio" id="portfolio">
-    <h1 class="heading">My <span>Portfolio</span></h1>
-    <div class="container">
-      <div class="portfolio-box">
-        <img src="https://placehold.co/400x250/1E1E1E/00C4CC?text=Project+1" alt="E-commerce System">
-        <div class="content">
-          <h3>E-commerce System Automation</h3>
-          <p>Automated telecom order management with Java, Node.js, and REST APIs, improving throughput and reducing manual errors.</p>
-          <a href="https://github.com/Chandrawat" target="_blank"><i class="fab fa-github"></i> View Code</a>
-        </div>
-      </div>
-      <div class="portfolio-box">
-        <img src="https://placehold.co/400x250/1E1E1E/00C4CC?text=Project+2" alt="Event-Driven Architecture">
-        <div class="content">
-          <h3>Event-Driven Microservices</h3>
-          <p>Designed microservices communication with Kafka, Pub/Sub, Azure Event Hub for resilient, decoupled event processing.</p>
-          <a href="https://github.com/Chandrawat" target="_blank"><i class="fab fa-github"></i> View Code</a>
-        </div>
-      </div>
-      <div class="portfolio-box">
-        <img src="https://placehold.co/400x250/1E1E1E/00C4CC?text=Project+3" alt="CI/CD Automation">
-        <div class="content">
-          <h3>CI/CD Pipeline Automation</h3>
-          <p>Implemented Jenkins, Docker, Argo CD for automated deployments, cutting release times by 40% and increasing reliability.</p>
-          <a href="https://github.com/Chandrawat" target="_blank"><i class="fab fa-github"></i> View Code</a>
-        </div>
-      </div>
-    </div>
-  </section>
+    <!-- Experience Section -->
+    <section id="experience" class="section experience-section">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Technical Lead</h3>
+                        <h4>Miracle Software Systems Inc. (client: Sherwin-Williams <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Sherwin-Williams_wordmark.svg" alt="Sherwin-Williams Logo" class="client-logo" onerror="this.onerror=null;this.src='';this.outerHTML='<i class=\'fas fa-paint-roller client-logo\'></i>';">)</h4>
+                        <p class="job-duration">December 2024 - Present | Cleveland, OH</p>
+                        <p>Leading a development team, I oversee code reviews, mentor members, and plan sprints to ensure high-quality deliverables. My role involves designing and developing scalable backend systems using Java 17, Spring Boot, and Microservices, integrating with Kafka and Azure services for seamless deployment. I also drive continuous improvements in web applications through robust documentation and code enhancements.</p>
+                    </div>
+                </div>
 
-  <!-- Experience -->
-  <section class="experience" id="experience">
-    <h1 class="heading">My <span>Experience</span></h1>
-    <div class="container">
-      <div class="timeline">
-        <div class="timeline-item">
-          <i class="fas fa-briefcase"></i>
-          <span>2024 - Present</span>
-          <h3>Technical Lead - Sherwin-Williams</h3>
-          <p>Led teams, built microservices on Spring Boot, integrated with Azure Event Hub, delivered OpenAPI docs for 3rd-party integration.</p>
-        </div>
-        <div class="timeline-item">
-          <i class="fas fa-briefcase"></i>
-          <span>2022 - 2024</span>
-          <h3>IT Technical Lead - Charter Communications</h3>
-          <p>Managed a 7+ person team, designed event-driven architectures, integrated SonarQube into CI/CD, improved code quality and throughput.</p>
-        </div>
-        <div class="timeline-item">
-          <i class="fas fa-briefcase"></i>
-          <span>2019 - 2022</span>
-          <h3>Technology Analyst - Verizon</h3>
-          <p>Built automated e-commerce systems using Java and Node.js, deployed on AWS, implemented OAuth 2.0 and JWT for secure APIs.</p>
-        </div>
-        <div class="timeline-item">
-          <i class="fas fa-briefcase"></i>
-          <span>2015 - 2017</span>
-          <h3>Software Engineer - John Deere</h3>
-          <p>Developed web and mobile apps with Java, Spring MVC, and Bootstrap. Improved productivity with responsive design and API testing.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>IT Technical Lead</h3>
+                        <h4>Advanced Resource Staffing Inc. (client: Charter Communications Inc. (Spectrum) <img src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Spectrum_Logo.svg" alt="Spectrum Logo" class="client-logo" onerror="this.onerror=null;this.src='';this.outerHTML='<i class=\'fas fa-wifi client-logo\'></i>';">)</h4>
+                        <p class="job-duration">May 2022 - October 2024 | St Louis, MO</p>
+                        <p>I led a 7+ member Java development team, managing onshore/offshore collaboration to ensure project success. I designed an event-driven microservices architecture using Google Cloud Pub/Sub and streamlined coding workflows with AI. My responsibilities included sprint planning, implementing distributed caching with Redis, and integrating Jenkins and SonarQube into CI/CD pipelines to improve code quality and deployment reliability.</p>
+                    </div>
+                </div>
 
-  <!-- Contact -->
-  <section class="contact" id="contact">
-    <h1 class="heading">Contact <span>Me</span></h1>
-    <div class="container">
-      <div class="row">
-        <div class="contact-info">
-          <h3>Get in Touch</h3>
-          <p><i class="fas fa-envelope"></i> saksham.pace@gmail.com</p>
-          <p><i class="fas fa-phone"></i> 201-985-4801</p>
-          <p><i class="fas fa-map-marker-alt"></i> Cleveland, OH</p>
-          <div class="social-links">
-            <a href="https://linkedin.com/in/sakshamchandrawat" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
-            <a href="https://github.com/Chandrawat" target="_blank"><i class="fab fa-github fa-2x"></i></a>
-          </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Technology Analyst</h3>
+                        <h4>Infosys Ltd. (client: Verizon Communications <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/verizon.svg" alt="Verizon Logo" class="client-logo" onerror="this.onerror=null;this.src='';this.outerHTML='<i class=\'fas fa-mobile-alt client-logo\'></i>';">)</h4>
+                        <p class="job-duration">September 2019 - May 2022 | Dallas, TX</p>
+                        <p>I developed a fully automated e-commerce system using Java 8, microservices, and REST APIs for telecom customer requests. I configured EC2 instances for hosting, load balancing with ELB, and implemented auto-scaling. My work also involved deploying Java and Node.js API layers on AWS with Kafka integration, securing APIs with OAuth 2.0 and JWT, and automating CI/CD pipelines with Jenkins, Maven, and Docker.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Software Engineer</h3>
+                        <h4>Yash Technologies Pvt. Ltd. (client: John Deere <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/johndeere.svg" alt="John Deere Logo" class="client-logo" onerror="this.onerror=null;this.src='';this.outerHTML='<i class=\'fas fa-tractor client-logo\'></i>';">)</h4>
+                        <p class="job-duration">March 2015 - July 2017 | Indore, India</p>
+                        <p>I developed four scalable web and mobile applications using Java, JavaScript, jQuery, and Tortoise SVN, enhancing client satisfaction. I built a web application with Spring MVC, DB2, and Bootstrap to streamline internal operations and improve system efficiency. I also utilized Spring Data JPA for CRUD operations and managed database transactions, ensuring reliable service communication through Postman and REST Assured for integration and API testing.</p>
+                    </div>
+                </div>
+
+                <!-- Individual Internship Entries -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Intern Software Engineer</h3>
+                        <h4>Intello Group, Ltd.</h4>
+                        <p class="job-duration">July 2019 - September 2019 | New York, NY</p>
+                        <p>Contributed to the development of a cutting-edge data analytics platform, focusing on backend logic and API integration. Gained hands-on experience with real-time data processing and enhanced system performance through optimized SQL queries. Collaborated closely with senior engineers to troubleshoot issues and implement new features in an agile environment.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Intern Software Developer</h3>
+                        <h4>OFree Inc.</h4>
+                        <p class="job-duration">May 2018 - August 2018 | New York, NY</p>
+                        <p>Assisted in the full lifecycle development of a mobile application, from concept to deployment, using JavaScript and responsive design principles. Implemented new user interface components and optimized existing code for improved user experience. Participated in daily stand-ups and code reviews, contributing to a collaborative development workflow.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Intern Java Developer</h3>
+                        <h4>iPrimed Pvt. Ltd.</h4>
+                        <p class="job-duration">November 2014 - February 2015 | Bangalore, India</p>
+                        <p>Developed and maintained Java-based applications, gaining foundational experience in object-oriented programming and database interactions. Assisted in debugging and testing modules, contributing to the overall stability of the software. This role provided a strong introduction to enterprise software development practices.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="education-section">
+                <h2 class="section-title">Education</h2>
+                <div class="education-entry">
+                    <h3>Master of Science (M.S.) in Computer Science</h3>
+                    <h4>Pace University | Concentration: Web and Cloud Development</h4>
+                    <p>August 2017 - May 2019 | New York, NY</p>
+                </div>
+                <div class="education-entry">
+                    <h3>Bachelor of Engineering (B.E.) in Computer Science</h3>
+                    <h4>Medicaps University</h4>
+                    <p>July 2010 - June 2014 | Indore, MP, India</p>
+                </div>
+            </div>
         </div>
-        <form action="#" method="POST" class="contact-form">
-          <h3>Send a Message</h3>
-          <input type="text" name="name" placeholder="Your Name" class="box" required>
-          <input type="email" name="email" placeholder="Your Email" class="box" required>
-          <input type="text" name="subject" placeholder="Subject" class="box" required>
-          <textarea name="message" placeholder="Your Message" class="box" required></textarea>
-          <input type="submit" value="Send Message" class="btn">
-        </form>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <p>&copy; 2025 Saksham Chandrawat. All rights reserved.</p>
-    </div>
-  </footer>
+    <!-- Certifications Section -->
+    <section id="certifications" class="section certifications-section">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                <div class="certification-entry">
+                    <h3>Google Cloud Certified: Cloud Digital Leader</h3>
+                    <h4>Issued by Google Cloud <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/googlecloud.svg" alt="Google Cloud Logo" class="client-logo" style="height: 20px; margin-left: 10px;" onerror="this.onerror=null;this.src='';this.outerHTML='<i class=\'fas fa-cloud client-logo\'></i>';"></h4>
+                    <p class="certification-date">Issued: October 2023</p>
+                    <p>Demonstrated foundational knowledge of Google Cloud products and services and how they can be used to achieve an organization's goals.</p>
+                    <a href="https://cloud.google.com/learn/certification/cloud-digital-leader" target="_blank" class="btn-certification"><i class="fas fa-external-link-alt"></i> Learn More</a>
+                </div>
+                <!-- Add more certifications here as needed -->
+            </div>
+        </div>
+    </section>
 
-  <!-- Custom Scripts -->
-  <script src="script.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-  <script>
-    new Typed('.typed-text', {
-      strings: ["Technical Java Lead", "Microservices Architect", "Cloud-Native Developer"],
-      typeSpeed: 50,
-      backSpeed: 25,
-      loop: true
-    });
-  </script>
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <h2 class="section-title">My Learning Endeavors</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <img src="https://placehold.co/400x250/a8dadc/1d3557?text=Project+1" alt="Learning Project 1">
+                    <h3>Spring Boot Microservice Playground</h3>
+                    <p>Explored advanced Spring Boot features, including reactive programming and distributed tracing, by building a mock e-commerce backend with Kafka integration.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank" class="btn-project"><i class="fas fa-eye"></i> Live Demo (Coming Soon)</a>
+                        <a href="#" target="_blank" class="btn-project"><i class="fab fa-github"></i> GitHub (Private)</a>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <img src="https://placehold.co/400x250/f4a261/2a9d8f?text=Project+2" alt="Learning Project 2">
+                    <h3>Angular UI Component Library</h3>
+                    <p>Developed a reusable Angular component library to deepen understanding of component lifecycle, state management, and responsive design principles.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank" class="btn-project"><i class="fas fa-eye"></i> Live Demo (Coming Soon)</a>
+                        <a href="#" target="_blank" class="btn-project"><i class="fab fa-github"></i> GitHub (Private)</a>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <img src="https://placehold.co/400x250/e76f51/f4a261?text=Project+3" alt="Learning Project 3">
+                    <h3>Cloud Deployment Automation</h3>
+                    <p>Automated the deployment of a simple web application to GCP using Terraform and GitHub Actions, focusing on CI/CD best practices and infrastructure as code.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank" class="btn-project"><i class="fas fa-eye"></i> Live Demo (Coming Soon)</a>
+                        <a href="#" target="_blank" class="btn-project"><i class="fab fa-github"></i> GitHub (Private)</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-intro">Feel free to reach out to me for collaborations, questions, or just a friendly chat!</p>
+            <div class="contact-info-grid">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>Email</p>
+                    <a href="mailto:saksham.pace@gmail.com">saksham.pace@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <p>Phone</p>
+                    <a href="tel:+12019854801">201-985-4801</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <p>LinkedIn</p>
+                    <a href="https://linkedin.com/in/sakshamchandrawat" target="_blank">linkedin.com/in/sakshamchandrawat</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Location</p>
+                    <span>Cleveland, OH 44126</span>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/sakshamchandrawat" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/shahsagarm" target="_blank" aria-label="GitHub (Placeholder)"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank" aria-label="Medium (Placeholder)"><i class="fab fa-medium"></i></a>
+                <a href="#" target="_blank" aria-label="Twitter (Placeholder)"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Saksham Chandrawat. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
