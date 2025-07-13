@@ -281,7 +281,7 @@ body {
     height: 100%;
     object-fit: cover;
     display: block;
-    object-position: 50% 15%; /* Adjusted to move the image down */
+    object-position: 50% 60%; /* Adjusted to move the image down */
 }
 
 /* About Section */
@@ -875,7 +875,14 @@ body {
     }
 
     .hero-buttons {
-        justify-content: center;
+        flex-direction: column; /* Stack buttons vertically on smaller screens */
+        align-items: center; /* Center stacked buttons */
+        gap: 15px; /* Adjust gap for stacked buttons */
+    }
+
+    .btn {
+        width: 80%; /* Make buttons take more width when stacked */
+        max-width: 300px; /* Limit max width of stacked buttons */
     }
 
     .hero-image {
@@ -982,10 +989,7 @@ body {
         font-size: 1.1rem;
     }
 
-    .btn {
-        padding: 12px 25px;
-        font-size: 0.95rem;
-    }
+    /* .btn rules moved to @media (max-width: 992px) for better cascading */
 
     .skills-grid, .projects-grid {
         grid-template-columns: 1fr;
@@ -1001,14 +1005,7 @@ body {
         font-size: 1rem;
     }
 
-    .hero-buttons {
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    .btn {
-        width: 100%;
-    }
+    /* .hero-buttons and .btn rules already handled by @media (max-width: 992px) */
 
     .section-title {
         font-size: 1.8rem;
