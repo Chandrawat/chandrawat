@@ -281,7 +281,7 @@ body {
     height: 100%;
     object-fit: cover;
     display: block;
-    object-position: 50% 15%; /* Adjusted to move the image down */
+    object-position: 50% 15%; /* Adjusted to move the image up */
 }
 
 /* About Section */
@@ -514,6 +514,9 @@ body {
     margin-left: 10px;
     object-fit: contain;
     filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.1));
+    /* Added for better control on smaller screens */
+    max-width: 60px; /* Limit logo width */
+    flex-shrink: 0; /* Prevent logo from shrinking too much */
 }
 
 .timeline-item:nth-child(odd) .client-logo {
@@ -923,6 +926,7 @@ body {
         padding: 15px; /* Slightly reduced padding for smaller screens */
         box-sizing: border-box; /* Ensure padding is included in width */
         max-width: 100%; /* Explicitly set max-width */
+        overflow: hidden; /* Hide overflow to prevent horizontal scroll */
     }
 
     .timeline-content h3,
@@ -934,8 +938,10 @@ body {
     }
 
     .timeline-content h4 .client-logo {
-        max-width: 100%; /* Ensure logo doesn't cause overflow */
+        max-width: 50px; /* Further limit logo width on smaller screens */
         height: auto; /* Maintain aspect ratio */
+        margin-left: 5px; /* Adjust margin */
+        margin-right: 5px; /* Adjust margin */
     }
 
     .education-section {
@@ -1054,6 +1060,9 @@ body {
     .timeline-content p,
     .timeline-content ul li {
         font-size: 0.9rem; /* Adjust text size */
+    }
+    .timeline-content h4 .client-logo {
+        max-width: 40px; /* Even smaller logo for very small screens */
     }
 
     .project-card h3 {
