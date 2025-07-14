@@ -8,7 +8,7 @@ body {
     color: #333;
     background-color: #f0f2f5; /* Light grey background */
     scroll-behavior: smooth; /* Smooth scrolling for anchor links */
-    background-image: url('https://www.transparenttextures.com/patterns/cubes.png'); /* Subtle background pattern */
+    background-image: url('https://www.transparenttextures/patterns/cubes.png'); /* Subtle background pattern */
     background-repeat: repeat;
 }
 
@@ -897,10 +897,9 @@ body {
 
     .timeline-item {
         width: 100%;
-        /* Adjusted padding for smaller screens */
         padding-left: 40px; /* Reduced from 60px */
         padding-right: 10px;
-        text-align: left;
+        text-align: left; /* Ensures the overall item content is left-aligned */
     }
 
     .timeline-item:nth-child(odd) {
@@ -927,15 +926,27 @@ body {
         box-sizing: border-box; /* Ensure padding is included in width */
         max-width: 100%; /* Explicitly set max-width */
         overflow: hidden; /* Hide overflow to prevent horizontal scroll */
+        text-align: left; /* Explicitly set text alignment for content block */
     }
 
     .timeline-content h3,
-    .timeline-content h4,
     .timeline-content p,
     .timeline-content ul {
         max-width: 100%; /* Ensure these elements don't overflow */
         box-sizing: border-box;
+        text-align: left; /* Ensure text is left-aligned within these elements */
     }
+    
+    .timeline-content h4 {
+        max-width: 100%; /* Ensure h4 doesn't overflow */
+        box-sizing: border-box;
+        display: flex; /* Keep flex for logo alignment */
+        align-items: center;
+        flex-wrap: wrap; /* Ensure text wraps within h4 */
+        justify-content: flex-start; /* Force h4 content to start from the left */
+        text-align: left; /* Ensure text within h4 is left-aligned */
+    }
+
 
     .timeline-content h4 .client-logo {
         max-width: 50px; /* Further limit logo width on smaller screens */
