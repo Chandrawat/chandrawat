@@ -898,13 +898,13 @@ body {
     .timeline-item {
         width: 100%;
         padding-left: 40px; /* Consistent left padding for all items on mobile */
-        padding-right: 20px; /* Increased right padding for all items on mobile */
+        padding-right: 20px; /* IMPORTANT: Consistent right padding for all items on mobile */
         text-align: left; /* Ensures the overall item content is left-aligned */
     }
 
     .timeline-item:nth-child(odd) {
         left: 0;
-        /* Removed specific padding-right here as it's now handled by .timeline-item */
+        /* REMOVED specific padding-right here as it's now handled by .timeline-item */
     }
 
     .timeline-item:nth-child(even) {
