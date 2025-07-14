@@ -897,14 +897,14 @@ body {
 
     .timeline-item {
         width: 100%;
-        padding-left: 40px; /* Reduced from 60px */
-        padding-right: 10px; /* Keep consistent padding on right side */
+        padding-left: 40px; /* Consistent left padding for all items on mobile */
+        padding-right: 20px; /* Increased right padding for all items on mobile */
         text-align: left; /* Ensures the overall item content is left-aligned */
     }
 
     .timeline-item:nth-child(odd) {
         left: 0;
-        padding-right: 10px; /* Ensure consistent right padding for odd items on mobile */
+        /* Removed specific padding-right here as it's now handled by .timeline-item */
     }
 
     .timeline-item:nth-child(even) {
@@ -922,7 +922,7 @@ body {
 
     /* Ensure content within timeline-content also respects width */
     .timeline-content {
-        padding: 15px; /* Slightly reduced padding for smaller screens */
+        padding: 15px; /* Consistent padding for content blocks */
         box-sizing: border-box; /* Ensure padding is included in width */
         max-width: 100%; /* Explicitly set max-width */
         overflow: hidden; /* Hide overflow to prevent horizontal scroll */
@@ -1048,8 +1048,8 @@ body {
     }
 
     .timeline-item {
-        padding-left: 30px; /* Further reduce padding for very small screens */
-        padding-right: 10px; /* Ensure consistent right padding */
+        padding-left: 30px; /* Further reduce left padding for very small screens */
+        padding-right: 15px; /* Further increase right padding for very small screens */
     }
     .timeline-dot {
         left: 5px; /* Adjust dot position if padding changes */
