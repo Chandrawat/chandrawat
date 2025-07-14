@@ -1100,4 +1100,25 @@ body {
     .skill-category-card ul li {
         font-size: 1.1rem; /* Kept consistent with other list items */
     }
+    @media (max-width: 480px) {
+  .timeline-content {
+    padding: 15px;        /* slightly more padding than 10px */
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+
+  .timeline-content h4 {
+    font-size: 1.05rem;
+    word-wrap: break-word;
+    word-break: break-word;
+    line-height: 1.3;
+  }
+
+  .timeline-content p {
+    font-size: 0.9rem;
+    word-wrap: break-word;
+    word-break: break-word;
+    line-height: 1.4;
+  }
+}
 }
