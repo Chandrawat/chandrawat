@@ -502,6 +502,7 @@ body {
     display: flex; /* Allow inline elements for logo */
     align-items: center; /* Vertically align logo with text */
     justify-content: flex-end; /* Align to right for odd items */
+    flex-wrap: wrap; /* Allow content to wrap within the h4 */
 }
 
 .timeline-item:nth-child(even) .timeline-content h4 {
@@ -527,10 +528,13 @@ body {
     font-size: 0.95rem;
 }
 
-.timeline-content p {
+.timeline-content p,
+.timeline-content ul li { /* Apply to both paragraphs and list items */
     color: #444;
     font-size: 1rem;
     text-align: left; /* Ensure paragraphs within timeline are left-aligned */
+    word-wrap: break-word; /* Ensure long words break and wrap */
+    overflow-wrap: break-word; /* Modern alternative for word-wrap */
 }
 
 .timeline-content ul {
@@ -538,12 +542,6 @@ body {
     margin-left: 20px;
     padding: 0;
     text-align: left;
-}
-
-.timeline-content ul li {
-    margin-bottom: 8px;
-    color: #444;
-    font-size: 1rem;
 }
 
 /* Education Section (within Experience section for layout) */
@@ -896,7 +894,8 @@ body {
 
     .timeline-item {
         width: 100%;
-        padding-left: 60px;
+        /* Adjusted padding for smaller screens */
+        padding-left: 40px; /* Reduced from 60px */
         padding-right: 10px;
         text-align: left;
     }
@@ -917,6 +916,26 @@ body {
     .timeline-item:nth-child(odd) .timeline-dot {
         right: auto;
         left: 10px;
+    }
+
+    /* Ensure content within timeline-content also respects width */
+    .timeline-content {
+        padding: 15px; /* Slightly reduced padding for smaller screens */
+        box-sizing: border-box; /* Ensure padding is included in width */
+        max-width: 100%; /* Explicitly set max-width */
+    }
+
+    .timeline-content h3,
+    .timeline-content h4,
+    .timeline-content p,
+    .timeline-content ul {
+        max-width: 100%; /* Ensure these elements don't overflow */
+        box-sizing: border-box;
+    }
+
+    .timeline-content h4 .client-logo {
+        max-width: 100%; /* Ensure logo doesn't cause overflow */
+        height: auto; /* Maintain aspect ratio */
     }
 
     .education-section {
@@ -1011,12 +1030,30 @@ body {
         font-size: 1.8rem;
     }
 
-    .timeline-content h3 {
-        font-size: 1.5rem;
+    .timeline-item {
+        padding-left: 30px; /* Further reduce padding for very small screens */
     }
-
+    .timeline-dot {
+        left: 5px; /* Adjust dot position if padding changes */
+    }
+    .timeline-item:nth-child(odd) .timeline-dot {
+        left: 5px;
+    }
+    .timeline-item:nth-child(even) .timeline-dot {
+        left: 5px;
+    }
+    .timeline-content {
+        padding: 10px; /* Further reduce padding */
+    }
+    .timeline-content h3 {
+        font-size: 1.4rem; /* Adjust heading size */
+    }
     .timeline-content h4 {
-        font-size: 1.1rem;
+        font-size: 1.1rem; /* Adjust subheading size */
+    }
+    .timeline-content p,
+    .timeline-content ul li {
+        font-size: 0.9rem; /* Adjust text size */
     }
 
     .project-card h3 {
