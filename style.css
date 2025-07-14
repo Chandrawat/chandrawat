@@ -8,7 +8,7 @@ body {
     color: #333;
     background-color: #f0f2f5; /* Light grey background */
     scroll-behavior: smooth; /* Smooth scrolling for anchor links */
-    background-image: url('https://www.transparenttextures/patterns/cubes.png'); /* Subtle background pattern */
+    background-image: url('https://www.transparenttextures.com/patterns/cubes.png'); /* Subtle background pattern */
     background-repeat: repeat;
 }
 
@@ -898,13 +898,13 @@ body {
     .timeline-item {
         width: 100%;
         padding-left: 40px; /* Reduced from 60px */
-        padding-right: 10px;
+        padding-right: 10px; /* Keep consistent padding on right side */
         text-align: left; /* Ensures the overall item content is left-aligned */
     }
 
     .timeline-item:nth-child(odd) {
         left: 0;
-        padding-right: 10px;
+        padding-right: 10px; /* Ensure consistent right padding for odd items on mobile */
     }
 
     .timeline-item:nth-child(even) {
@@ -1049,6 +1049,7 @@ body {
 
     .timeline-item {
         padding-left: 30px; /* Further reduce padding for very small screens */
+        padding-right: 10px; /* Ensure consistent right padding */
     }
     .timeline-dot {
         left: 5px; /* Adjust dot position if padding changes */
